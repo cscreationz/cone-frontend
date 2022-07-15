@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 export default function RegisterPage() {
   const [username, setUsername] = useState("");
@@ -6,7 +6,7 @@ export default function RegisterPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  }
+  };
 
   return (
     <div>
@@ -14,14 +14,14 @@ export default function RegisterPage() {
 
       <form action="" onSubmit={handleSubmit}>
         <label htmlFor="">Username:</label>
-        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)}/>
+        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
 
         <label htmlFor="">Password:</label>
-        <input type="password" name="" id="" value={password} onChange={(e) => setPassword(e.target.value)}/>
+        <input type="password" name="" id="" value={password} onChange={(e) => setPassword(e.target.value)} />
 
         <button type="submit">Register</button>
       </form>
-     
+
     </div>
-  )
+  );
 }
