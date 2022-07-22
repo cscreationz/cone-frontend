@@ -1,0 +1,32 @@
+header .cta-buttons {
+  display: flex;
+  gap: 35px;
+}
+
+.landing .hero {
+  padding-top: 100px;
+}
+
+.landing .hero h2 {
+  font-weight: 500;
+  font-size: 35px;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.landing .hero p {
+  font-size: 20px;
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.landing .hero a {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.landing .hero a.link-primary {
+  text-decoration: underline;
+  display: block;
+  color: #fff;
+}

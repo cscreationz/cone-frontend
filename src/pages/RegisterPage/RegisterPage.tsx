@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "../../components/Header/Header";
 
 export default function RegisterPage() {
   const [username, setUsername] = useState("");
@@ -10,6 +11,8 @@ export default function RegisterPage() {
 
   return (
     <div>
+      <Header />
+
       <h1>Register</h1>
 
       <form action="" onSubmit={handleSubmit}>

@@ -24,4 +24,11 @@ module.exports = {
     quotes: ["error", "double"],
     "react/jsx-filename-extension": [1, { extensions: [".tsx", ".jsx"] }],
   },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
+  },
 };
