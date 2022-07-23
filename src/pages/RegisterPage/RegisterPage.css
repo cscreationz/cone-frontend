@@ -1,0 +1,63 @@
+.register .form-container {
+  width: 350px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 7px;
+  margin-top: 50px;
+  padding: 20px 40px;
+}
+
+.register h2 {
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.register .form-container .btn-container button {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.register .form-container .btn-container button img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.register .form-divider {
+  text-align: center;
+  margin: 25px 0 25px 0;
+}
+
+.register form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.register form input {
+  outline: none;
+  border: none;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.register form input:last-of-type {
+  margin-bottom: 30px;
+}
+
+.register form .link-primary {
+  margin-bottom: 25px;
+}
+
+.register form .btn {
+  width: 100%;
+}

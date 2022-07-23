@@ -7,7 +7,10 @@ export default function Header() {
   return (
     <header>
       <div className="container">
-        <h1>Cone.</h1>
+        <h1>
+          Cone
+          <i>.</i>
+        </h1>
         <div className="cta-buttons">
           <Link className="btn" to="/login">Login</Link>
           <Link className="btn btn-primary" to="/register">Register</Link>

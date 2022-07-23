@@ -6,24 +6,26 @@
 
 body {
   font-family: "Ubuntu";
-  background-color: #222;
+  background-color: #111;
   color: #fff;
 }
 
 .container {
-  padding: 15px 60px;
+  padding: 10px 60px;
 }
 
 .btn {
-  padding: 15px 30px;
+  display: block;
+  padding: 13px 27px;
   background-color: #333;
   outline: none;
   border: none;
-  text-decoration: none;
+  text-decoration: none;  
   border-radius: 5px;
   color: #fff;
   transition: 200ms ease-in-out;
-  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
 }
 
 .btn.btn-primary {
@@ -34,4 +36,21 @@ body {
 .btn:hover {
   transform: translateY(-2px);
   box-shadow: -3px 5px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn.btn-ghost {
+  background: none;
+  border: 2px solid #333;
+}
+
+.btn.btn-ghost:hover {
+  background: #fff;
+  color: #222;
+  border: 2px solid #fff;
+}
+
+.link-primary {
+  text-decoration: underline;
+  display: block;
+  color: #fff;
 }
