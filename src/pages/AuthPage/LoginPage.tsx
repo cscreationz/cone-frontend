@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Header from "../../components/Header/Header";
 
-import facebookLogo from "./facebook.svg";
-import googleLogo from "./google.svg";
+import facebookLogo from "../../images/facebook.svg";
+import googleLogo from "../../images/google.svg";
 
-import "./RegisterPage.css";
+import "./LoginPage.css";
 
-export default function RegisterPage() {
-  const [username, setUsername] = useState("");
+export default function LoginPage() {
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
@@ -15,11 +15,11 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="register">
+    <div className="login auth-page">
       <Header />
 
       <div className="form-container">
-        <h2>Register</h2>
+        <h2>Login</h2>
 
         <div className="btn-container">
           <button type="submit" className="btn btn-ghost btn-google">
@@ -27,7 +27,7 @@ export default function RegisterPage() {
             Sign up with Google
           </button>
           <button type="submit" className="btn btn-ghost btn-fb">
-          <img src={facebookLogo} alt="facebook logo" />
+            <img src={facebookLogo} alt="facebook logo" />
             Sign up with Facebook
           </button>
         </div>
@@ -35,10 +35,12 @@ export default function RegisterPage() {
         <div className="form-divider">Or</div>
 
         <form action="" onSubmit={handleSubmit}>
-          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username" />
-          <input type="password" name="" id="" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password: 8 characters" />
+          <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
+          <input type="password" name="" id="" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
 
-          <button type="submit" className="btn btn-primary">Register</button>
+          <a href="#" className="link-primary">Forgot password?</a>
+
+          <button type="submit" className="btn btn-primary">Login</button>
         </form>
       </div>
     </div>

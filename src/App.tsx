@@ -3,8 +3,8 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./pages/LandingPage/LandingPage";
-import LoginPage from "./pages/LoginPage/LoginPage";
-import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import LoginPage from "./pages/AuthPage/LoginPage";
+import RegisterPage from "./pages/AuthPage/RegisterPage";
 import OnboardingPage from "./pages/OnboardingPage/OnboardingPage";
 
 function App() {
