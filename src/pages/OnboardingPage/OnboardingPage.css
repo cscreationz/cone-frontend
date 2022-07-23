@@ -1,0 +1,34 @@
+.onboard {
+  
+}
+
+.onboard .page-display {
+  margin-bottom: 40px;
+}
+
+.onboard .btn {
+  margin-right: 20px;
+}
+
+
+.personal-details h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.personal-details .input-groups {
+  display: grid;
+  gap: 20px 40px;
+  grid-template-columns: repeat(2, 300px);
+}
+
+.personal-details .input-groups .input-group label {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.personal-details .input-groups .input-group input {
+  width: 100%;
+}

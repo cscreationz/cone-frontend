@@ -19,17 +19,17 @@ a {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   padding: 13px 27px;
+  border-radius: 5px;
   background-color: #333;
+  color: #fff;
+  font-size: 17px;
   outline: none;
   border: none;
   text-decoration: none;  
-  border-radius: 5px;
-  color: #fff;
-  transition: 200ms ease-in-out;
   cursor: pointer;
-  font-size: 17px;
+  transition: 200ms ease-in-out;
 }
 
 .btn.btn-primary {
@@ -57,4 +57,21 @@ a {
   text-decoration: underline;
   display: block;
   color: #fff;
+}
+
+input {
+  display: block;
+  outline: none;
+  border: none;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  transition: 200ms ease-in-out;
+  font-family: "Ubuntu";
+}
+
+input:focus {
+  background-color: #444;
 }
