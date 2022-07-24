@@ -1,5 +1,10 @@
-.onboard {
-  
+.onboard .onboard-form {
+  margin-top: 40px;
+}
+
+.onboard .onboard-form p.step-count {
+  text-decoration: underline;
+  color: #F0A500;
 }
 
 .onboard .page-display {
@@ -10,8 +15,7 @@
   margin-right: 20px;
 }
 
-
-.personal-details h2 {
+.onboard-details h2 {
   font-weight: 400;
   font-size: 30px;
   margin-top: 30px;
@@ -25,7 +29,7 @@
 }
 
 .personal-details .input-groups .input-group label {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: block;
 }
 

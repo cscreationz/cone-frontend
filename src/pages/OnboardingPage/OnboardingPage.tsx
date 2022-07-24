@@ -37,7 +37,8 @@ export default function OnboardingPage() {
   return (
     <div className="onboard">
       <Header />
-      <div className="container">
+      <div className="container onboard-form">
+        <p className="step-count">Step {page + 1} of 3</p>
         <div className="page-display">{PageDisplay()}</div>
 
         <button
