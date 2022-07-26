@@ -8,3 +8,8 @@
 
 3. Start a development server
    `npm start`
+
+# Extensions for VSCode
+
+1. ESLint
+2. Prettier
