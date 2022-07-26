@@ -12,7 +12,7 @@ export default function EducationDetails({ formData, setFormData }) {
         </div>
         <div className="input-group">
           <label htmlFor="">Are you a current student?</label>
-          <input type="date" />
+          {/* <ButtonGroup bt/> */}
         </div>
         <div className="input-group">
           <label htmlFor="">Start date:</label>

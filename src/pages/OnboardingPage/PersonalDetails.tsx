@@ -1,4 +1,17 @@
 import React from "react";
+import Select from "react-select";
+
+const countriesOptions = [
+  { value: "IN", label: "India" },
+  { value: "AL", label: "Algeria" },
+  { value: "vanilla", label: "Vanilla" },
+];
+
+const stateOptions = [
+  { value: "chocolate", label: "Chocolate" },
+  { value: "strawberry", label: "Strawberry" },
+  { value: "vanilla", label: "Vanilla" },
+];
 
 export default function PersonalDetails({ formData, setFormData }) {
   return (
@@ -24,11 +37,11 @@ export default function PersonalDetails({ formData, setFormData }) {
         </div>
         <div className="input-group">
           <label htmlFor="">Country:</label>
-          <input type="text" />
+          <Select options={countriesOptions} />
         </div>
         <div className="input-group">
           <label htmlFor="">State:</label>
-          <input type="text" />
+          <Select options={stateOptions} />
         </div>
       </div>
     </div>

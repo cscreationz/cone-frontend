@@ -16,7 +16,7 @@ export default function OnboardingPage() {
     country: "",
     state: "",
 
-    degreeType: "",
+    degreeType: "", // enums?
     collegeName: "",
     areAlumni: false,
 
